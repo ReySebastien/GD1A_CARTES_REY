@@ -19,7 +19,7 @@ class Mage{
         void afficheZoneDeJeu();
         void ajoutMonstre();
         void attaqueAdversaire();
-        bool TestVictoireMage();
+        bool testVictoireMage();
 };
 
 

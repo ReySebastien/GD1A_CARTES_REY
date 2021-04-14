@@ -19,11 +19,17 @@ void Mage:: ajoutMonstre(){
 }
 
 void Mage:: attaqueAdversaire(){
-    
+
 }
 
 bool Mage:: testVictoireMage(){
-
+    if(_pvMage == 0){
+        std:: cout << "Le Mage " << _nomMage << " est mort !" << std:: endl;
+        return true;
+    }
+    else {
+        return false;
+    }
 }
 
 
