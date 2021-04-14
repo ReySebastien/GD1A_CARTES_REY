@@ -20,12 +20,20 @@ int Monstre :: getPV(){
 int Monstre:: getAttaque(){ // Pour l'instant cette fonction ne marche pas, je n'arrive pas à faire ce que je veux mettre en place, c'est à dire faire choisir au joueur d'attaquer ou non
     std:: cout << "Voulez-vous attaquer(1) ou passer votre tour ?(2) " << std:: endl;
     //std:: cin >> ; 
-    return _attaqueMonstre;
+    if(1){
+        _fatigueMonstre = true;
+        return _attaqueMonstre;
+    }
+
+    else if (2){
+        return false;
+    }
+    
 }
 
 bool Monstre:: getFatigue(){
     if(_fatigueMonstre == false){
-        
+        std:: cout << "Votre monstre peut attaquer !" << std:: endl;
         return false;
     }
 
