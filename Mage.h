@@ -16,7 +16,7 @@ class Mage{
 
         Mage();
         void afficheMage();
-        void afficheZoneDeJeu(_zoneDeJeu);
+        void afficheZoneDeJeu();
         void ajoutMonstre();
         void attaqueAdversaire();
         bool TestVictoireMage();

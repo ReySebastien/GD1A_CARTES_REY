@@ -12,7 +12,7 @@ void Monstre:: afficheMonstre(){
 }
 
 int Monstre :: getPV(){
-    std:: cout << "Combien de PV possède votre Monstre ?" << std:: endl;
+    std:: cout << "Combien de PV possede votre Monstre ?" << std:: endl;
     std:: cin >> _pvMonstre;
     return _pvMonstre;
 }
