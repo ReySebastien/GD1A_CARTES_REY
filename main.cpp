@@ -1,5 +1,6 @@
 
 #include "Monstre.cpp"
+#include "Mage.cpp"
 #include <iostream>
 #include <string>
 

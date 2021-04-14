@@ -2,6 +2,7 @@
 #define MAGE_CPP
 
 #include "Mage.h"
+#include "Monstre.h"
 #include <iostream>
 
 Mage::Mage():_nomMage(), _pvMage(100), _zoneDeJeu(){}
@@ -14,8 +15,9 @@ void Mage:: afficheZoneDeJeu(){
     std:: cout << _zoneDeJeu << std::endl;
 }
 
-void Mage:: ajoutMonstre(){
-
+void Mage:: ajoutMonstre(){ // Ici je veux faire appel à la classe monstre afin de créer un monstre via cette classe
+    Monstre.getPV();
+    Monstre.getAttaque();
 }
 
 void Mage:: attaqueAdversaire(){
