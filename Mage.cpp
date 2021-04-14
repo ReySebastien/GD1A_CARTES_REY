@@ -5,7 +5,7 @@
 #include "Monstre.h"
 #include <iostream>
 
-Mage::Mage():_nomMage(), _pvMage(100), _zoneDeJeu(){}
+Mage::Mage():_nomMage(), _pvMage(100), _zoneDeJeu(), _manaMage(10){}
 
 void Mage:: afficheMage(){
     std :: cout << "Nom : " << _nomMage << "PV : " << _pvMage << "Zone de jeu : " << _zoneDeJeu << std:: endl;
@@ -23,6 +23,7 @@ void Mage:: afficheZoneDeJeu(){
 void Mage:: attaqueAdversaire(){
 
 }
+
 
 bool Mage:: testVictoireMage(){
     if(_pvMage == 0){

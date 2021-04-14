@@ -11,7 +11,7 @@ class Mage{
         std:: string _nomMage;
         int _pvMage;
         void _zoneDeJeu;
-        int manaMage;
+        int _manaMage;
 
     public:
 
@@ -23,6 +23,7 @@ class Mage{
         void attaqueAdversaire();
         bool testVictoireMage();
         int updateMana();
+        void jouCarte();
         void finTour();
 };
 
