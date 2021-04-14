@@ -15,10 +15,10 @@ void Mage:: afficheZoneDeJeu(){
     std:: cout << _zoneDeJeu << std::endl;
 }
 
-void Mage:: ajoutMonstre(){ // Ici je veux faire appel à la classe monstre afin de créer un monstre via cette classe
+/*void Mage:: ajoutMonstre(){ // Ici je veux faire appel à la classe monstre afin de créer un monstre via cette classe, cependant elle devient inutile une fois la pioche implémentée
     Monstre.getPV();
     Monstre.getAttaque();
-}
+}*/
 
 void Mage:: attaqueAdversaire(){
 
