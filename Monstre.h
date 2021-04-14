@@ -5,13 +5,13 @@
 
 class Monstre{
 
-    public:
-
-
-
-
-
     private:
+
+
+
+
+
+    public:
 
 
 
